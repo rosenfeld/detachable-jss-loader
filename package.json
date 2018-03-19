@@ -11,6 +11,8 @@
     "jss": "^9.0"
   },
   "devDependencies": {
+    "babel-jest": "^23.0.0-alpha.0",
+    "babel-preset-env": "^1.6.1",
     "jest": "^22.4.2",
     "jss": "^9.8.1",
     "memory-fs": "^0.4.1",
@@ -18,5 +20,11 @@
   },
   "dependencies": {
     "loader-utils": "^1.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
