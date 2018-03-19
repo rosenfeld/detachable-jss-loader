@@ -1,0 +1,10 @@
+{
+  "name": "detachable-jss-loader",
+  "version": "1.0.0",
+  "description": "Transforms .css.js using jss in a manageable way",
+  "main": "index.js",
+  "repository": "https://github.com/rosenfeld/detachable-jss-loader",
+  "author": "Rodrigo Rosenfeld Rosas",
+  "license": "MIT",
+  "private": false
+}
