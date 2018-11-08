@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = function loader(source) {
   const issuer = this._module.issuer;
-  if (issuer) {
+  if (issuer && issuer.request) {
     const issuerRequest = issuer.request.replace(/\?.*/, '');
     if (issuerRequest === __filename) return source;
   }

@@ -1,6 +1,6 @@
 {
   "name": "detachable-jss-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforms .css.js using jss in a manageable way",
   "main": "index.js",
   "repository": "https://github.com/rosenfeld/detachable-jss-loader",
